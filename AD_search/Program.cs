@@ -15,7 +15,7 @@ namespace AD_search
             Console.WriteLine("search : ");
             string userInput = Convert.ToString(Console.ReadLine());
             //domain param
-            string domainName = "corp.dannorth.co.il";
+            string domainName = "your@domain";
             printList(search_by(userInput, domainName));
             Console.ReadKey();
         }
